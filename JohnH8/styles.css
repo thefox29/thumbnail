@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for contrast */
+    text-align: center;
+}
+
+header {
+    background-color: #1f1f1f; /* Slightly lighter dark background */
+    color: #e0e0e0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Section Styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #2c2c2c; /* Darker background for sections */
+    margin: 20px 0;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid #444; /* Slightly lighter border */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 120px; /* Slightly larger images */
+    margin-bottom: 15px;
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for images */
+}
+
+h2 {
+    font-size: 1.5rem; /* Larger font size for titles */
+    font-weight: 700; /* Bold text */
+    color: #e0e0e0;
+    margin-bottom: 15px; /* Spacing below the title */
+}
+
+p {
+    font-size: 1.1rem; /* Slightly larger text for better readability */
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Button Style */
+footer {
+    padding: 20px;
+}
+
+button {
+    background-color: #1e88e5; /* Bright blue button */
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px; /* Rounded corners for button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+button:active {
+    background-color: #0d47a1; /* Even darker blue when active */
+    transform: scale(1); /* Remove scale effect on click */
+}

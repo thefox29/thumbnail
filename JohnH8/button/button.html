@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Request</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <header>
+        <h1>Submit Your Request</h1>
+    </header>
+
+    <main>
+        <form id="submissionForm">
+            <label for="discordYoutube">
+                Your Discord & YouTube Channel:
+                <input type="text" id="discordYoutube" name="discordYoutube" required>
+            </label>
+
+            <label for="thumbnailTitle">
+                Thumbnail Title:
+                <input type="text" id="thumbnailTitle" name="thumbnailTitle" required>
+            </label>
+
+            <label for="videoDescription">
+                Video Description:
+                <textarea id="videoDescription" name="videoDescription" required></textarea>
+            </label>
+
+            <label for="thumbnailDescription">
+                Thumbnail Description:
+                <textarea id="thumbnailDescription" name="thumbnailDescription" required></textarea>
+            </label>
+
+            <label for="backgroundInfo">
+                Information about Background:
+                <textarea id="backgroundInfo" name="backgroundInfo" required></textarea>
+            </label>
+
+            <label for="growtopians">
+                How many Growtopians, what sets?
+                <input type="text" id="growtopians" name="growtopians" required>
+            </label>
+
+            <label for="others">
+                Others:
+                <textarea id="others" name="others"></textarea>
+            </label>
+
+            <button type="submit" id="sendButton">Send</button>
+        </form>
+    </main>
+
+    <script src="button.js"></script>
+</body>
+</html>

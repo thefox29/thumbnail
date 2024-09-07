@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for contrast */
+    text-align: center;
+}
+
+header {
+    background-color: #1f1f1f; /* Slightly lighter dark background */
+    color: #e0e0e0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Form Styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    background-color: #2c2c2c; /* Darker background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+    width: 80%;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+}
+
+input, textarea {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;
+    color: #e0e0e0;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #1e88e5; /* Bright blue button */
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+button:active {
+    background-color: #0d47a1; /* Even darker blue when active */
+    transform: scale(1); /* Remove scale effect on click */
+}
